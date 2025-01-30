@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cleaning Company</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    </head>
+
+    <body>
+        <!-- section 1 -->
+        <header>
+            <nav>
+                <div class="logo">CLEANING<span>COMPANY</span></div>
+                <div class="menu-bar"></div>
+
+                <ul>
+                    <li><a href="#" title="Home">Home</a></li>
+                    <li><a href="#" title="About">About</a></li>
+                    <li><a href="#" title="Services">Services</a></li>
+                    <li><a href="#" title="Portfolio">Portfolio</a></li>
+                    <li><a href="#" title="Pricing">Pricing</a></li>
+                    <li><a href="#" title="Blog">Blog</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="main-section">
+                <div class="main-section-content wrapper">
+                    <div class="main-section-content-A">
+                        <span>Leave the house cleaning chores to us</span>
+                        <h1>Let us do the dirty work, so you don't have to.</h1>
+                        <a href="#" class="btn" title="Learn More">LEARN MORE</a>
+                    </div>
+                </div>
+            </section>
+            <!-- appointment form -->
+            <form class="appointmentForm wrapper">
+                <div class="formGroup">
+                    <label for="name">Name <sup>*</sup></label>
+                    <input type="text" required placeholder="Your Name" autocomplete="name" name="name" id="name" aria-describedby="name-required" />
+                    <span class="error" id="name-required">Name is required</span>
+                </div>
+                <div class="formGroup">
+                    <label for="mobileNo">Phone Number <sup>*</sup></label>
+                    <input type="tel" required placeholder="Phone Number" name="mobileNo" autocomplete="tel" id="mobileNo" aria-describedby="mobile-required" />
+                    <span class="error" id="mobile-required">Mobile number is required</span>
+                </div>
+                <div class="formGroup">
+                    <label for="service">Select Service <sup>*</sup></label>
+                    <select required name="service" id="service">
+                        <option disabled selected value="">Select Service</option>
+                        <option value="office">Office Cleaning</option>
+                        <option value="pool">Pool Cleaning</option>
+                        <option value="carpet">Carpet Cleaning</option>
+                        <option value="kitchen">Kitchen Cleaning</option>
+                        <option value="garden">Garden Cleaning</option>
+                        <option value="window">Window Cleaning</option>
+                    </select>
+                </div>
+                <div class="formGroup">
+                    <label for="cleanerName">Name <sup>*</sup></label>
+                    <select required name="cleanerName" id="cleanerName">
+                        <option disabled selected value="">Select Cleaner</option>
+                        <option value="amit">Amit</option>
+                        <option value="sharad">Sharad</option>
+                        <option value="sunil">Sunil</option>
+                    </select>
+                </div>
+                <button>Make an appointment</button>
+            </form>
+            <!-- section 2 -->
+            <section class="container wrapper">
+                <div class="image-section">
+                    <img src="./assets/about.jpg" alt="Cleaning worker" loading="lazy" />
+                </div>
+
+                <div class="text-section">
+                    <div class="textTopMargin">
+                        <span class="subtitle">Welcome to Cleaning Company</span>
+                        <h2>Let's make you fresher than ever</h2>
+                        <p>
+                            Team1 is giving you a cleaning service which includes Bedrooms cleaning, Vacuuming , Bathroom cleaning, Mirror cleaning, Livingroom cleaning and many more services at
+                            efficient price. Team consists of Amit, Siddharth and Sharad. We have different packs Starter, Standard, Premium, Platinum. We are looking to serve you better.
+                        </p>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>45</h3>
+                            <p><span>Years of</span><br /><span>Experience</span></p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2,342</h3>
+                            <p><span>Happy</span><br /><span>Customers</span></p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>30</h3>
+                            <p><span>Buildings</span><br /><span>Cleaned</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section 3 -->
+            <section class="section3 wrapper">
+                <div class="tag text-center">Services</div>
+                <h2 class="text-center">How We Works</h2>
+                <div class="services">
+                    <div class="service">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM256 208c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" /></svg
+                        ></i>
+                        <div class="con">
+                            <h3>Office Cleaning</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ducimus dolore tempora optio minima eveniet culpa harum voluptatem sequi velit.</p>
+                            <a class="cta" href="/office-cleaninnf">Read More</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM256 208c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" /></svg
+                        ></i>
+                        <div class="con">
+                            <h3>Pool Cleaning</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ducimus dolore tempora optio minima eveniet culpa harum voluptatem sequi velit.</p>
+                            <a class="cta" href="/office-cleaninnf">Read More</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM256 208c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" /></svg
+                        ></i>
+                        <div class="con">
+                            <h3>Carpet Cleaning</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ducimus dolore tempora optio minima eveniet culpa harum voluptatem sequi velit.</p>
+                            <a class="cta" href="/office-cleaninnf">Read More</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM256 208c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" /></svg
+                        ></i>
+                        <div class="con">
+                            <h3>Kitchen Cleaning</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ducimus dolore tempora optio minima eveniet culpa harum voluptatem sequi velit.</p>
+                            <a class="cta" href="/office-cleaninnf">Read More</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM256 208c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" /></svg
+                        ></i>
+                        <div class="con">
+                            <h3>Garden Cleaning</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ducimus dolore tempora optio minima eveniet culpa harum voluptatem sequi velit.</p>
+                            <a class="cta" href="/office-cleaninnf">Read More</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM256 208c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" /></svg
+                        ></i>
+                        <div class="con">
+                            <h3>Window Cleaning</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, ducimus dolore tempora optio minima eveniet culpa harum voluptatem sequi velit.</p>
+                            <a class="cta" href="/office-cleaninnf">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section 4 -->
+            <section class="team-section wrapper">
+                <div class="team-content">
+                    <div class="section-subtitle">Team & Staff</div>
+                    <h2 class="section-title">Our Team</h2>
+                    <p class="team-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo deserunt tempora corrupti doloremque hic quasi autem quod corporis amet</p>
+                    <button class="view-all-btn">View All Staff</button>
+                </div>
+                <div class="team-cards">
+                    <div class="team-card">
+                        <img src="./assets/staff-1.jpg" alt="Team Member" class="team-img" loading="lazy" />
+                        <div class="team-info">
+                            <h3 class="team-name">Lloyd Wilson</h3>
+                            <p class="team-position">Office Cleaner</p>
+                            <div class="team-social-icons">
+                                <a href="#" class="social-icons twitter-icon" title="Twitter">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons fb-icon" title="FB">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons google-icon" title="Google">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons insta-icon" title="Insta">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <img src="./assets/staff-2.jpg" alt="Team Member" class="team-img" loading="lazy" />
+                        <div class="team-info">
+                            <h3 class="team-name">Lloyd Wilson</h3>
+                            <p class="team-position">Office Cleaner</p>
+                            <div class="team-social-icons">
+                                <a href="#" class="social-icons twitter-icon" title="Twitter">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons fb-icon" title="FB">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons google-icon" title="Google">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons insta-icon" title="Insta">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <img src="./assets/staff-3.jpg" alt="Team Member" class="team-img" loading="lazy" />
+                        <div class="team-info">
+                            <h3 class="team-name">Lloyd Wilson</h3>
+                            <p class="team-position">Office Cleaner</p>
+                            <div class="team-social-icons">
+                                <a href="#" class="social-icons twitter-icon" title="Twitter">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons fb-icon" title="FB">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons google-icon" title="Google">
+                                    <span></span>
+                                </a>
+                                <a href="#" class="social-icons insta-icon" title="Insta">
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section 5 -->
+            <section class="section5">
+                <div class="tag text-center">testimonials</div>
+                <h2 class="text-center">Happy Customers</h2>
+                <div class="testimonials wrapper">
+                    <div class="testimonial">
+                        <div class="top">
+                            <img height="50px" width="50px" src="./assets/person_1.jpg" alt="author-1" />
+                            <div>
+                                <h3>Roger Scott</h3>
+                                <span class="position">Marketing Manager</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                <defs></defs>
+                                <g
+                                    style="
+                                        stroke: none;
+                                        stroke-width: 0;
+                                        stroke-dasharray: none;
+                                        stroke-linecap: butt;
+                                        stroke-linejoin: miter;
+                                        stroke-miterlimit: 10;
+                                        fill: none;
+                                        fill-rule: nonzero;
+                                        opacity: 1;
+                                    "
+                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                    <path
+                                        d="M 0 13.077 V 44.13 c 0 2.526 2.048 4.575 4.575 4.575 h 20.723 c 1.775 0 3.214 1.439 3.214 3.214 v 0 c 0 9.88 -8.009 17.889 -17.889 17.889 H 7.016 c -2.034 0 -3.683 1.649 -3.683 3.683 v 4.324 c 0 2.034 1.649 3.683 3.683 3.683 h 3.606 c 16.337 0 29.58 -13.243 29.58 -29.58 v -3.214 V 38.027 v -24.95 c 0 -2.526 -2.048 -4.575 -4.575 -4.575 H 4.575 C 2.048 8.502 0 10.55 0 13.077 z"
+                                        style="
+                                            stroke: none;
+                                            stroke-width: 1;
+                                            stroke-dasharray: none;
+                                            stroke-linecap: butt;
+                                            stroke-linejoin: miter;
+                                            stroke-miterlimit: 10;
+                                            fill: rgb(255, 224, 92);
+                                            fill-rule: nonzero;
+                                            opacity: 1;
+                                        "
+                                        transform=" matrix(1 0 0 1 0 0) "
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M 49.798 13.077 V 44.13 c 0 2.526 2.048 4.575 4.575 4.575 h 20.723 c 1.775 0 3.214 1.439 3.214 3.214 v 0 c 0 9.88 -8.009 17.889 -17.889 17.889 h -3.606 c -2.034 0 -3.683 1.649 -3.683 3.683 v 4.324 c 0 2.034 1.649 3.683 3.683 3.683 h 3.606 c 16.337 0 29.58 -13.243 29.58 -29.58 v -3.214 V 38.027 v -24.95 c 0 -2.526 -2.048 -4.575 -4.575 -4.575 H 54.372 C 51.846 8.502 49.798 10.55 49.798 13.077 z"
+                                        style="
+                                            stroke: none;
+                                            stroke-width: 1;
+                                            stroke-dasharray: none;
+                                            stroke-linecap: butt;
+                                            stroke-linejoin: miter;
+                                            stroke-miterlimit: 10;
+                                            fill: rgb(255, 224, 92);
+                                            fill-rule: nonzero;
+                                            opacity: 1;
+                                        "
+                                        transform=" matrix(1 0 0 1 0 0) "
+                                        stroke-linecap="round" />
+                                </g>
+                            </svg>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eaque eius accusantium corporis, repellendus perferendis.</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="top">
+                            <img height="50px" width="50px" src="./assets/person_2.jpg" alt="author-2" />
+                            <div>
+                                <h3>Roger Scott</h3>
+                                <span class="position">Marketing Manager</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                <defs></defs>
+                                <g
+                                    style="
+                                        stroke: none;
+                                        stroke-width: 0;
+                                        stroke-dasharray: none;
+                                        stroke-linecap: butt;
+                                        stroke-linejoin: miter;
+                                        stroke-miterlimit: 10;
+                                        fill: none;
+                                        fill-rule: nonzero;
+                                        opacity: 1;
+                                    "
+                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                    <path
+                                        d="M 0 13.077 V 44.13 c 0 2.526 2.048 4.575 4.575 4.575 h 20.723 c 1.775 0 3.214 1.439 3.214 3.214 v 0 c 0 9.88 -8.009 17.889 -17.889 17.889 H 7.016 c -2.034 0 -3.683 1.649 -3.683 3.683 v 4.324 c 0 2.034 1.649 3.683 3.683 3.683 h 3.606 c 16.337 0 29.58 -13.243 29.58 -29.58 v -3.214 V 38.027 v -24.95 c 0 -2.526 -2.048 -4.575 -4.575 -4.575 H 4.575 C 2.048 8.502 0 10.55 0 13.077 z"
+                                        style="
+                                            stroke: none;
+                                            stroke-width: 1;
+                                            stroke-dasharray: none;
+                                            stroke-linecap: butt;
+                                            stroke-linejoin: miter;
+                                            stroke-miterlimit: 10;
+                                            fill: rgb(255, 224, 92);
+                                            fill-rule: nonzero;
+                                            opacity: 1;
+                                        "
+                                        transform=" matrix(1 0 0 1 0 0) "
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M 49.798 13.077 V 44.13 c 0 2.526 2.048 4.575 4.575 4.575 h 20.723 c 1.775 0 3.214 1.439 3.214 3.214 v 0 c 0 9.88 -8.009 17.889 -17.889 17.889 h -3.606 c -2.034 0 -3.683 1.649 -3.683 3.683 v 4.324 c 0 2.034 1.649 3.683 3.683 3.683 h 3.606 c 16.337 0 29.58 -13.243 29.58 -29.58 v -3.214 V 38.027 v -24.95 c 0 -2.526 -2.048 -4.575 -4.575 -4.575 H 54.372 C 51.846 8.502 49.798 10.55 49.798 13.077 z"
+                                        style="
+                                            stroke: none;
+                                            stroke-width: 1;
+                                            stroke-dasharray: none;
+                                            stroke-linecap: butt;
+                                            stroke-linejoin: miter;
+                                            stroke-miterlimit: 10;
+                                            fill: rgb(255, 224, 92);
+                                            fill-rule: nonzero;
+                                            opacity: 1;
+                                        "
+                                        transform=" matrix(1 0 0 1 0 0) "
+                                        stroke-linecap="round" />
+                                </g>
+                            </svg>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eaque eius accusantium corporis, repellendus perferendis.</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="top">
+                            <img height="50px" width="50px" src="./assets/person_3.jpg" alt="author-3" />
+                            <div>
+                                <h3>Roger Scott</h3>
+                                <span class="position">Marketing Manager</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+                                <defs></defs>
+                                <g
+                                    style="
+                                        stroke: none;
+                                        stroke-width: 0;
+                                        stroke-dasharray: none;
+                                        stroke-linecap: butt;
+                                        stroke-linejoin: miter;
+                                        stroke-miterlimit: 10;
+                                        fill: none;
+                                        fill-rule: nonzero;
+                                        opacity: 1;
+                                    "
+                                    transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                    <path
+                                        d="M 0 13.077 V 44.13 c 0 2.526 2.048 4.575 4.575 4.575 h 20.723 c 1.775 0 3.214 1.439 3.214 3.214 v 0 c 0 9.88 -8.009 17.889 -17.889 17.889 H 7.016 c -2.034 0 -3.683 1.649 -3.683 3.683 v 4.324 c 0 2.034 1.649 3.683 3.683 3.683 h 3.606 c 16.337 0 29.58 -13.243 29.58 -29.58 v -3.214 V 38.027 v -24.95 c 0 -2.526 -2.048 -4.575 -4.575 -4.575 H 4.575 C 2.048 8.502 0 10.55 0 13.077 z"
+                                        style="
+                                            stroke: none;
+                                            stroke-width: 1;
+                                            stroke-dasharray: none;
+                                            stroke-linecap: butt;
+                                            stroke-linejoin: miter;
+                                            stroke-miterlimit: 10;
+                                            fill: rgb(255, 224, 92);
+                                            fill-rule: nonzero;
+                                            opacity: 1;
+                                        "
+                                        transform=" matrix(1 0 0 1 0 0) "
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M 49.798 13.077 V 44.13 c 0 2.526 2.048 4.575 4.575 4.575 h 20.723 c 1.775 0 3.214 1.439 3.214 3.214 v 0 c 0 9.88 -8.009 17.889 -17.889 17.889 h -3.606 c -2.034 0 -3.683 1.649 -3.683 3.683 v 4.324 c 0 2.034 1.649 3.683 3.683 3.683 h 3.606 c 16.337 0 29.58 -13.243 29.58 -29.58 v -3.214 V 38.027 v -24.95 c 0 -2.526 -2.048 -4.575 -4.575 -4.575 H 54.372 C 51.846 8.502 49.798 10.55 49.798 13.077 z"
+                                        style="
+                                            stroke: none;
+                                            stroke-width: 1;
+                                            stroke-dasharray: none;
+                                            stroke-linecap: butt;
+                                            stroke-linejoin: miter;
+                                            stroke-miterlimit: 10;
+                                            fill: rgb(255, 224, 92);
+                                            fill-rule: nonzero;
+                                            opacity: 1;
+                                        "
+                                        transform=" matrix(1 0 0 1 0 0) "
+                                        stroke-linecap="round" />
+                                </g>
+                            </svg>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eaque eius accusantium corporis, repellendus perferendis.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- section 6 -->
+            <section class="section6 wrapper">
+                <div class="tag text-center">our project</div>
+                <h2 class="text-center">We have done many latest cleaning project</h2>
+                <div class="projects">
+                    <img height="250" width="220" src="./assets/work-1.jpg" alt="work-1" />
+                    <img height="250" width="220" src="./assets/work-2.jpg" alt="work-2" />
+                    <img height="250" width="220" src="./assets/work-3.jpg" alt="work-3" />
+                    <img height="250" width="220" src="./assets/work-4.jpg" alt="work-4" />
+                    <img height="250" width="220" src="./assets/work-5.jpg" alt="work-5" />
+                    <img height="250" width="220" src="./assets/work-6.jpg" alt="work-6" />
+                    <img height="250" width="220" src="./assets/work-7.jpg" alt="work-7" />
+                    <img height="250" width="220" src="./assets/work-8.jpg" alt="work-8" />
+                </div>
+            </section>
+            <!-- section 7 -->
+            <section class="news-section wrapper">
+                <div class="section-subtitle text-center">NEWS & BLOGS</div>
+                <h2 class="section-title text-center">Latest News</h2>
+                <div class="news-cards">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="./assets/image_1.jpg" alt="news 1" loading="lazy" />
+                        </div>
+                        <div class="news-info">
+                            <div class="author-info">
+                                <img src="./assets/person_1.jpg" alt="author" class="author-image" loading="lazy" />
+                                <div class="author-info-text">
+                                    <p class="posted-by">Posted by John Doe</p>
+                                    <p class="post-date">04 March 2020</p>
+                                </div>
+                            </div>
+                            <h3 class="news-title">10 Tips to Clean Your Window</h3>
+                            <p class="news-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo deserunt tempora corrupti</p>
+                        </div>
+                    </div>
+
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="./assets/image_2.jpg" alt="news 1" loading="lazy" />
+                        </div>
+                        <div class="news-info">
+                            <div class="author-info">
+                                <img src="./assets/person_2.jpg" alt="author" class="author-image" loading="lazy" />
+                                <div class="author-info-text">
+                                    <p class="posted-by">Posted by John Doe</p>
+                                    <p class="post-date">04 March 2020</p>
+                                </div>
+                            </div>
+                            <h3 class="news-title">10 Tips to Clean Your Window</h3>
+                            <p class="news-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo deserunt tempora corrupti</p>
+                        </div>
+                    </div>
+
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="./assets/image_3.jpg" alt="news 1" loading="lazy" />
+                        </div>
+                        <div class="news-info">
+                            <div class="author-info">
+                                <img src="./assets/person_3.jpg" alt="author" class="author-image" loading="lazy" />
+                                <div class="author-info-text">
+                                    <p class="posted-by">Posted by John Doe</p>
+                                    <p class="post-date">04 March 2020</p>
+                                </div>
+                            </div>
+                            <h3 class="news-title">10 Tips to Clean Your Window</h3>
+                            <p class="news-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo deserunt tempora corrupti</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section 8 -->
+            <section class="video-container wrapper">
+                <video autoplay loop src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+                <div class="overlay"></div>
+                <div class="overlay-content">
+                    <h2>Together we will explore new things</h2>
+                    <div class="play-button"></div>
+                </div>
+            </section>
+            <!-- section 9 -->
+            <section class="pricing-section wrapper">
+                <div class="plans">Price & Plans</div>
+                <h2>Choose Your Perfect Plans</h2>
+                <div class="pricing-container">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <img src="./assets/subs.png" height="48" width="48" alt="Starter Icon" loading="lazy" />
+                        </div>
+                        <div class="pricing-title">Starter</div>
+                        <div class="pricing-price"><sup>$</sup>49</div>
+                        <ul class="pricing-features">
+                            <li><span class="checkmark">✔</span> Bedrooms cleaning</li>
+                            <li><span class="checkmark">✔</span> Vacuuming</li>
+                            <li><span class="checkmark">✔</span> Bathroom cleaning</li>
+                            <li><span class="checkmark">✔</span> Mirror cleaning</li>
+                            <li><span class="checkmark">✔</span> Livingroom cleaning</li>
+                        </ul>
+                        <a href="#" title="Get Started" class="get-started">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <img src="./assets/subs.png" height="48" width="48" alt="Standard Icon" loading="lazy" />
+                        </div>
+                        <div class="pricing-title">Standard</div>
+                        <div class="pricing-price"><sup>$</sup>79</div>
+                        <ul class="pricing-features">
+                            <li><span class="checkmark">✔</span> Bedrooms cleaning</li>
+                            <li><span class="checkmark">✔</span> Vacuuming</li>
+                            <li><span class="checkmark">✔</span> Bathroom cleaning</li>
+                            <li><span class="checkmark">✔</span> Mirror cleaning</li>
+                            <li><span class="checkmark">✔</span> Livingroom cleaning</li>
+                        </ul>
+                        <a href="#" title="Get Started" class="get-started">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <img src="./assets/subs.png" height="48" width="48" alt="Premium Icon" loading="lazy" />
+                        </div>
+                        <div class="pricing-title">Premium</div>
+                        <div class="pricing-price"><sup>$</sup>109</div>
+                        <ul class="pricing-features">
+                            <li><span class="checkmark">✔</span> Bedrooms cleaning</li>
+                            <li><span class="checkmark">✔</span> Vacuuming</li>
+                            <li><span class="checkmark">✔</span> Bathroom cleaning</li>
+                            <li><span class="checkmark">✔</span> Mirror cleaning</li>
+                            <li><span class="checkmark">✔</span> Livingroom cleaning</li>
+                        </ul>
+                        <a href="#" title="Get Started" class="get-started">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <img src="./assets/subs.png" height="48" width="48" alt="Platinum Icon" loading="lazy" />
+                        </div>
+                        <div class="pricing-title">Platinum</div>
+                        <div class="pricing-price"><sup>$</sup>159</div>
+                        <ul class="pricing-features">
+                            <li><span class="checkmark">✔</span> Bedrooms cleaning</li>
+                            <li><span class="checkmark">✔</span> Vacuuming</li>
+                            <li><span class="checkmark">✔</span> Bathroom cleaning</li>
+                            <li><span class="checkmark">✔</span> Mirror cleaning</li>
+                            <li><span class="checkmark">✔</span> Livingroom cleaning</li>
+                        </ul>
+                        <a href="#" title="Get Started" class="get-started">Get Started</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- section 10 -->
+        <footer>
+            <div class="wrapper footer">
+                <div class="info">
+                    <div class="title">Cleaning Company</div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo deserunt tempora corrupti doloremque hic quasi autem quod corporis amet adipisci odit ea nesciunt magni sequi
+                        aut, aliquam sunt beatae rem?
+                    </p>
+                    <div class="socials">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg
+                        ></i>
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" /></svg
+                        ></i>
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></svg
+                        ></i>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="title">Cleaning Company</div>
+                    <div class="ncard">
+                        <img src="./assets/staff-1.jpg" height="50" width="50" alt="news 1" />
+                        <div class="con">
+                            <div class="ntitle">Lorem, ipsum dolor sit amet consectetur</div>
+                            <div class="date">Mar, 04 2020, Admin 19</div>
+                        </div>
+                    </div>
+                    <div class="ncard">
+                        <img src="./assets/staff-1.jpg" height="50" width="50" alt="news 1" />
+                        <div class="con">
+                            <div class="ntitle">Lorem, ipsum dolor sit amet consectetur</div>
+                            <div class="date">Mar, 04 2020, Admin 19</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ql">
+                    <div class="title">Quick links</div>
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
+                        <li>
+                            <a href="/services">Services</a>
+                        </li>
+                        <li>
+                            <a href="/work">Work</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="feedback">
+                    <div class="title">Have a Question</div>
+                    <div class="flx">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path
+                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" /></svg
+                        ></i>
+                        <address>203, Fake St. Mountain View, San Francisco, California, USA</address>
+                    </div>
+                    <div class="flx">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" /></svg
+                        ></i>
+                        <a href="tel:8989898989">8989898989</a>
+                    </div>
+                    <div class="flx">
+                        <i
+                            ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z" /></svg
+                        ></i>
+                        <a href="mailto:someone@example.com">someone@example.com</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
