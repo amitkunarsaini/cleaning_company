@@ -884,20 +884,14 @@ nav {
         &:focus-visible {
             border-color: black;
         }
-        &:has(input:user-invalid) {
-            sup {
-                color: red;
-            }
-        }
     }
-    &:has(input:user-invalid) {
+    &:has(input:user-invalid, select:user-invalid) {
         sup {
             color: red;
             outline-color: red;
         }
         input,
         select {
-            outline-color: red;
             border-color: red;
         }
         .error {

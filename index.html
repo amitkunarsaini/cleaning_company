@@ -50,7 +50,7 @@
                 </div>
                 <div class="formGroup">
                     <label for="service">Select Service <sup>*</sup></label>
-                    <select required name="service" id="service">
+                    <select required name="service" id="service" aria-describedby="service-required">
                         <option disabled selected value="">Select Service</option>
                         <option value="office">Office Cleaning</option>
                         <option value="pool">Pool Cleaning</option>
@@ -59,15 +59,17 @@
                         <option value="garden">Garden Cleaning</option>
                         <option value="window">Window Cleaning</option>
                     </select>
+                    <span class="error" id="service-required">Service name is required</span>
                 </div>
                 <div class="formGroup">
                     <label for="cleanerName">Name <sup>*</sup></label>
-                    <select required name="cleanerName" id="cleanerName">
+                    <select required name="cleanerName" id="cleanerName" aria-describedby="cleaner-name-required">
                         <option disabled selected value="">Select Cleaner</option>
                         <option value="amit">Amit</option>
                         <option value="sharad">Sharad</option>
                         <option value="sunil">Sunil</option>
                     </select>
+                    <span class="error" id="cleaner-name-required">Cleaner name is required</span>
                 </div>
                 <button>Make an appointment</button>
             </form>
